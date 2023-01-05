@@ -17,7 +17,8 @@ export const Search = ()=>{
             type="text" 
             placeholder="User Name"/>
             <br></br>
-        <input type="submit" value="Register"/>
+        <input type="submit" value="Search"/>
       </form>
     );
 }
+
