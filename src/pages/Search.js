@@ -10,6 +10,7 @@ export const Search = ()=>{
     };
 
     return (
+    <div className="App w-100 min-vh-50 justify-content-center align-items-center d-flex flex-column">
     <form onSubmit={LogUser}><br></br>
         <input 
             value={userInput}
@@ -19,6 +20,7 @@ export const Search = ()=>{
             <br></br>
         <input type="submit" value="Search"/>
       </form>
+      </div>
     );
 }
 
